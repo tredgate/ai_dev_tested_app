@@ -63,9 +63,4 @@ The backend of the Todo application should now be running at `http://localhost:3
 
 ## Authors
 
-- Your Name
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details
-\`\`\`
+- Petr Fifka and ChatGPT :)
