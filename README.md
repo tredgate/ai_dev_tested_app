@@ -24,7 +24,7 @@ Install the necessary npm packages:
 
 ``` sh
 npm install
-\`\`\`
+```
 
 Start the development server:
 
