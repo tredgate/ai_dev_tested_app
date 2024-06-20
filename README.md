@@ -16,21 +16,21 @@ These instructions will get you a copy of the project up and running on your loc
 
 Navigate to the `todo_app` directory:
 
-\`\`\`sh
+``` sh
 cd todo_app
-\`\`\`
+```
 
 Install the necessary npm packages:
 
-\`\`\`sh
+``` sh
 npm install
 \`\`\`
 
 Start the development server:
 
-\`\`\`sh
+```sh
 npm start
-\`\`\`
+```
 
 The frontend of the Todo application should now be running at `http://localhost:3000`.
 
@@ -38,31 +38,23 @@ The frontend of the Todo application should now be running at `http://localhost:
 
 Navigate to the `todo_backend` directory:
 
-\`\`\`sh
+``` sh
 cd ../todo_backend
-\`\`\`
+```
 
 Install the necessary npm packages:
 
-\`\`\`sh
+``` sh
 npm install
-\`\`\`
+```
 
 Start the backend server:
 
-\`\`\`sh
+``` sh
 node index.js
-\`\`\`
+```
 
 The backend of the Todo application should now be running at `http://localhost:3001`.
-
-## Running the tests
-
-To run the tests for the frontend, navigate to the `todo_app` directory and run:
-
-\`\`\`sh
-npm test
-\`\`\`
 
 ## Built With
 
