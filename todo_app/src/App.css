@@ -1,0 +1,134 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* App Component Styles */
+.App {
+  text-align: center;
+  background-color: #34495e;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 100%;
+}
+
+.App-header {
+  background-color: #2c3e50;
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* TaskForm Component Styles */
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #7f8c8d;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 250px;
+  background-color: #ecf0f1;
+  color: #2c3e50;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+/* TaskList Component Styles */
+ul {
+  list-style-type: none;
+  /* Remove bullet points */
+  padding: 0;
+}
+
+.TaskList {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.TaskList li {
+  background-color: #34495e;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.TaskList li.completed {
+  background-color: #2c3e50;
+  text-decoration: line-through;
+  color: #7f8c8d;
+}
+
+.TaskList li span {
+  flex: 1;
+  color: #ecf0f1;
+}
+
+.TaskList li.completed span {
+  color: #7f8c8d;
+  /* Grey color for completed tasks */
+}
+
+.TaskList li button {
+  background-color: #e67e22;
+  margin-left: 10px;
+}
+
+.TaskList li button:first-of-type {
+  background-color: #2ecc71;
+}
+
+.TaskList li button:first-of-type:hover {
+  background-color: #27ae60;
+}
+
+.TaskList li button:hover {
+  background-color: #d35400;
+}
+
+/* Button Group Styles */
+.button-group {
+  display: flex;
+  gap: 10px;
+}
